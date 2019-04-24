@@ -1,0 +1,57 @@
+{
+  "name": "node-stripe-membership-saas",
+  "description": "This project is a boilerplate express app for creating a membership/subscription site with Stripe.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eddywashere/node-stripe-membership-saas.git"
+  },
+  "keywords": [
+    "stripe",
+    "subscription",
+    "membership",
+    "saas",
+    "plan"
+  ],
+  "author": {
+    "name": "Eddy Hernandez",
+    "email": "edward.d.hernandez@gmail.com",
+    "url": "http://eddywashere.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddywashere/node-stripe-membership-saas/issues"
+  },
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "compression": "*",
+    "connect-mongo": "*",
+    "cookie-parser": "~1.4.4",
+    "cors": "*",
+    "debug": "~4.1.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-flash": "*",
+    "express-session": "*",
+    "express-subdomain": "^1.0.5",
+    "express-validator": "^5.3.1",
+    "lodash": "^4.17.11",
+    "middleware-responder": "git@github.com:hackable/middleware-responder.git",
+    "mongoose": "^5.5.3",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.1.1",
+    "nodemailer-mailgun-transport": "^1.4.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.5.0",
+    "stripe": "^6.30.0",
+    "stripe-webhook-middleware": "git+ssh://git@github.com/hackable/stripe-webhook-middleware.git",
+    "swig-templates": "^2.0.3"
+  }
+}
